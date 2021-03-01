@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/kanto-pokedex/static/css/main.8f66282d.chunk.css",
-    "main.js": "/kanto-pokedex/static/js/main.660f0bf1.chunk.js",
-    "main.js.map": "/kanto-pokedex/static/js/main.660f0bf1.chunk.js.map",
-    "runtime-main.js": "/kanto-pokedex/static/js/runtime-main.0403dfb8.js",
-    "runtime-main.js.map": "/kanto-pokedex/static/js/runtime-main.0403dfb8.js.map",
-    "static/js/2.32703aaa.chunk.js": "/kanto-pokedex/static/js/2.32703aaa.chunk.js",
-    "static/js/2.32703aaa.chunk.js.map": "/kanto-pokedex/static/js/2.32703aaa.chunk.js.map",
-    "static/js/3.3f98467d.chunk.js": "/kanto-pokedex/static/js/3.3f98467d.chunk.js",
-    "static/js/3.3f98467d.chunk.js.map": "/kanto-pokedex/static/js/3.3f98467d.chunk.js.map",
+    "main.css": "/kanto-pokedex/static/css/main.9b4e484b.chunk.css",
+    "main.js": "/kanto-pokedex/static/js/main.caeb4c29.chunk.js",
+    "main.js.map": "/kanto-pokedex/static/js/main.caeb4c29.chunk.js.map",
+    "runtime-main.js": "/kanto-pokedex/static/js/runtime-main.93e7db5b.js",
+    "runtime-main.js.map": "/kanto-pokedex/static/js/runtime-main.93e7db5b.js.map",
+    "static/js/2.04421891.chunk.js": "/kanto-pokedex/static/js/2.04421891.chunk.js",
+    "static/js/2.04421891.chunk.js.map": "/kanto-pokedex/static/js/2.04421891.chunk.js.map",
+    "static/js/3.9c0dbdcb.chunk.js": "/kanto-pokedex/static/js/3.9c0dbdcb.chunk.js",
+    "static/js/3.9c0dbdcb.chunk.js.map": "/kanto-pokedex/static/js/3.9c0dbdcb.chunk.js.map",
     "index.html": "/kanto-pokedex/index.html",
-    "static/css/main.8f66282d.chunk.css.map": "/kanto-pokedex/static/css/main.8f66282d.chunk.css.map",
-    "static/js/2.32703aaa.chunk.js.LICENSE.txt": "/kanto-pokedex/static/js/2.32703aaa.chunk.js.LICENSE.txt",
+    "static/css/main.9b4e484b.chunk.css.map": "/kanto-pokedex/static/css/main.9b4e484b.chunk.css.map",
+    "static/js/2.04421891.chunk.js.LICENSE.txt": "/kanto-pokedex/static/js/2.04421891.chunk.js.LICENSE.txt",
     "static/media/App.css": "/kanto-pokedex/static/media/Pokemon Solid.71ed1ed0.woff",
     "static/media/index.css": "/kanto-pokedex/static/media/pdex.91d2b59f.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.0403dfb8.js",
-    "static/js/2.32703aaa.chunk.js",
-    "static/css/main.8f66282d.chunk.css",
-    "static/js/main.660f0bf1.chunk.js"
+    "static/js/runtime-main.93e7db5b.js",
+    "static/js/2.04421891.chunk.js",
+    "static/css/main.9b4e484b.chunk.css",
+    "static/js/main.caeb4c29.chunk.js"
   ]
 }
