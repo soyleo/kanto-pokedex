@@ -107,6 +107,9 @@ button{
     background: linear-gradient(180deg, #53a4cf 50%, #f16e57 50%);
     background-color: #53a4cf;
 }
+.dark{
+    background-color: #707070;
+}
 .btn{
     font-family: "Flexo-Medium",arial,sans-serif;
     color: white;
