@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/kanto-pokedex/static/css/main.2913f30a.chunk.css",
-    "main.js": "/kanto-pokedex/static/js/main.a26e0bc7.chunk.js",
-    "main.js.map": "/kanto-pokedex/static/js/main.a26e0bc7.chunk.js.map",
+    "main.css": "/kanto-pokedex/static/css/main.070f1307.chunk.css",
+    "main.js": "/kanto-pokedex/static/js/main.b8c330ac.chunk.js",
+    "main.js.map": "/kanto-pokedex/static/js/main.b8c330ac.chunk.js.map",
     "runtime-main.js": "/kanto-pokedex/static/js/runtime-main.0403dfb8.js",
     "runtime-main.js.map": "/kanto-pokedex/static/js/runtime-main.0403dfb8.js.map",
     "static/js/2.32703aaa.chunk.js": "/kanto-pokedex/static/js/2.32703aaa.chunk.js",
@@ -10,14 +10,15 @@
     "static/js/3.3f98467d.chunk.js": "/kanto-pokedex/static/js/3.3f98467d.chunk.js",
     "static/js/3.3f98467d.chunk.js.map": "/kanto-pokedex/static/js/3.3f98467d.chunk.js.map",
     "index.html": "/kanto-pokedex/index.html",
-    "static/css/main.2913f30a.chunk.css.map": "/kanto-pokedex/static/css/main.2913f30a.chunk.css.map",
+    "static/css/main.070f1307.chunk.css.map": "/kanto-pokedex/static/css/main.070f1307.chunk.css.map",
     "static/js/2.32703aaa.chunk.js.LICENSE.txt": "/kanto-pokedex/static/js/2.32703aaa.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/kanto-pokedex/static/media/pdex.91d2b59f.jpg"
+    "static/media/App.css": "/kanto-pokedex/static/media/Pokemon Solid.71ed1ed0.woff",
+    "static/media/index.css": "/kanto-pokedex/static/media/pdex.91d2b59f.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.0403dfb8.js",
     "static/js/2.32703aaa.chunk.js",
-    "static/css/main.2913f30a.chunk.css",
-    "static/js/main.a26e0bc7.chunk.js"
+    "static/css/main.070f1307.chunk.css",
+    "static/js/main.b8c330ac.chunk.js"
   ]
 }
