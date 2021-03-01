@@ -39,7 +39,7 @@ class App extends React.Component {
     <h1 className='tc'>Loading</h1> :
     (
       <div className='tc container'>
-        <h1 className='f1'>Kanto Pokedex</h1>
+        <h1 className='f1'>Pokedex</h1>
         <ErrorBoundry>
           <SearchBox searchChange={this.onSearchChange} />
         </ErrorBoundry>

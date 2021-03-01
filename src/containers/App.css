@@ -9,15 +9,14 @@ h1
   font-family: 'Pokemon Solid Normal';
   color: #FCCF00;
   font-weight: 100;
-  font-size: 4rem;
+  font-size: 3rem;
   margin: 0;
   padding: 0;
-  line-height: 6rem;
 }
 
-@supports (-webkit-text-stroke: 0.3rem black) {
+@supports (-webkit-text-stroke: 0.15rem black) {
   h1 {
-    -webkit-text-stroke: 0.3rem #2468b1;
+    -webkit-text-stroke: 0.15rem #2468b1;
     -webkit-text-fill-color: #FCCF00;
   }
 }
@@ -27,16 +26,7 @@ h1
 .container{
   margin: 0;
   padding: 0;
-  /* The image used */
-  background-image: url("pdex.jpg");
-
-  /* Full height */
-  height: 100%; 
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+ 
 }
 .header
 {
