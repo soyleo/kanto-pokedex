@@ -1,5 +1,7 @@
 import {useState, useEffect} from 'react';
 import './Card.css';
+import Popup from 'reactjs-popup';
+import Modal from './Modal';
 const Card = ({ name, url }) => { 
 
     const [poke, setPoke] = useState(null);
@@ -8,10 +10,7 @@ const Card = ({ name, url }) => {
             setPoke(data);
         })
     },[url]);
-    const onClick=(event)=>{
-
-    }
-
+    
     return (
         <div className='card shadow'>
             
@@ -24,7 +23,26 @@ const Card = ({ name, url }) => {
                     <p>Wieght: {poke.weight}</p>
                     <p>Type: {
                         poke.types.map((tipo, i) =>{
-                            return <button className={`btn ${tipo.type.name}`} key={i} value={tipo.type.url}>{tipo.type.name}</button>
+                            return(
+                            <Popup
+                                trigger={<button className={`button ${tipo.type.name}`} key={i}>{tipo.type.name}</button>}
+                                modal
+                                nested
+                            >
+                                {close => (
+                                        <div className={`modal modal${tipo.type.name}`}>
+                                            <button className="close" onClick={close}>
+                                                &times;
+                                            </button>
+                                            <div className="header"> <button className={`btn ${tipo.type.name}`} key={`1${i}`}>{tipo.type.name}</button> </div>
+                                            <div className="content">
+                                                {' '}
+                                                <Modal url={tipo.type.url} key={`2${i}`} />
+                                            </div>
+                                        </div>
+                                )}
+                            </Popup>
+                            );
                         })
                     }</p>
                 </div>

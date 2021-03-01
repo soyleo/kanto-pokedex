@@ -110,10 +110,241 @@ button{
 .dark{
     background-color: #707070;
 }
-.btn{
+.btn, .button{
     font-family: "Flexo-Medium",arial,sans-serif;
     color: white;
     border-radius: 2rem;
     border: none;
     padding: 0.3rem;
+}
+.modalgrass{
+     /* The image used */
+  background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d1fa0f80-33c1-4516-8baa-90fb67ed2269/d755hbj-2a350c33-b053-497e-aa3e-26b9908bcb83.png/v1/fill/w_1024,h_576,q_80,strp/grass_pokemon_energy_wallpaper_by_elbarnzo_d755hbj-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD01NzYiLCJwYXRoIjoiXC9mXC9kMWZhMGY4MC0zM2MxLTQ1MTYtOGJhYS05MGZiNjdlZDIyNjlcL2Q3NTVoYmotMmEzNTBjMzMtYjA1My00OTdlLWFhM2UtMjZiOTkwOGJjYjgzLnBuZyIsIndpZHRoIjoiPD0xMDI0In1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.PeziwVs4W-69WXbwOC87bwM2JmhBxR453lFM3n2Ikcs");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.modalpoison{
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d1fa0f80-33c1-4516-8baa-90fb67ed2269/dbi2b02-f19f2e42-b157-4986-a49a-e8bdaabf12f0.png/v1/fill/w_1192,h_670,q_70,strp/poison_type_pokemon_wallpaper_by_elbarnzo_dbi2b02-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD0xMDgwIiwicGF0aCI6IlwvZlwvZDFmYTBmODAtMzNjMS00NTE2LThiYWEtOTBmYjY3ZWQyMjY5XC9kYmkyYjAyLWYxOWYyZTQyLWIxNTctNDk4Ni1hNDlhLWU4YmRhYWJmMTJmMC5wbmciLCJ3aWR0aCI6Ijw9MTkyMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.LEgQVqiQGs-0MzK3kqJPZBN7oMda3QF_eN_06eA6JzY");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.modalfire{
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d1fa0f80-33c1-4516-8baa-90fb67ed2269/d7519pz-cab4cca0-3856-4a70-87d1-d5d809d9c0e4.png/v1/fill/w_1024,h_576,q_80,strp/fire_pokemon_energy_wallpaper_by_elbarnzo_d7519pz-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD01NzYiLCJwYXRoIjoiXC9mXC9kMWZhMGY4MC0zM2MxLTQ1MTYtOGJhYS05MGZiNjdlZDIyNjlcL2Q3NTE5cHotY2FiNGNjYTAtMzg1Ni00YTcwLTg3ZDEtZDVkODA5ZDljMGU0LnBuZyIsIndpZHRoIjoiPD0xMDI0In1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.0Rv3Nb2Z_mSgl2AJLTInxd58nSveXb6lSjK1ju-YEcc");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.modalflying{
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d1fa0f80-33c1-4516-8baa-90fb67ed2269/daoas8t-ba1dbb24-2a99-4fa3-9223-91d74351713f.png/v1/fill/w_1192,h_670,q_70,strp/flying_type_pokemon_energy_by_elbarnzo_daoas8t-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD0xMDgwIiwicGF0aCI6IlwvZlwvZDFmYTBmODAtMzNjMS00NTE2LThiYWEtOTBmYjY3ZWQyMjY5XC9kYW9hczh0LWJhMWRiYjI0LTJhOTktNGZhMy05MjIzLTkxZDc0MzUxNzEzZi5wbmciLCJ3aWR0aCI6Ijw9MTkyMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.IBk3L53lPlvo3fWCIurOLaYitxwdePMYeCGXfvLh75o");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.modalwater{
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d1fa0f80-33c1-4516-8baa-90fb67ed2269/d75ebft-c7b19fe1-d302-4940-8058-edd9506e76f1.png/v1/fill/w_1024,h_576,q_80,strp/water_pokemon_energy_wallpaper_by_elbarnzo_d75ebft-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD01NzYiLCJwYXRoIjoiXC9mXC9kMWZhMGY4MC0zM2MxLTQ1MTYtOGJhYS05MGZiNjdlZDIyNjlcL2Q3NWViZnQtYzdiMTlmZTEtZDMwMi00OTQwLTgwNTgtZWRkOTUwNmU3NmYxLnBuZyIsIndpZHRoIjoiPD0xMDI0In1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.OK1eBOkx7PeM1iXBwzuw-GrB73eEjaQfr26exLdoDZg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.modalbug{
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d1fa0f80-33c1-4516-8baa-90fb67ed2269/dajncbl-45c25a96-dbb4-4ad8-a823-fea773839227.png/v1/fill/w_1192,h_670,q_70,strp/bug_type_pokemon_wallpaper_by_elbarnzo_dajncbl-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD0xMDgwIiwicGF0aCI6IlwvZlwvZDFmYTBmODAtMzNjMS00NTE2LThiYWEtOTBmYjY3ZWQyMjY5XC9kYWpuY2JsLTQ1YzI1YTk2LWRiYjQtNGFkOC1hODIzLWZlYTc3MzgzOTIyNy5wbmciLCJ3aWR0aCI6Ijw9MTkyMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.dQqhNt8DKZ1BL-YJlfQXUMhWUeMLe8_Q3wP_cALgtzE");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.modalnormal{
+   background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d1fa0f80-33c1-4516-8baa-90fb67ed2269/d74i220-46efb57c-f214-4bf0-bb43-52a4c76d765a.png/v1/fill/w_1024,h_576,q_80,strp/colorless_pokemon_energy_wallpaper_by_elbarnzo_d74i220-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD01NzYiLCJwYXRoIjoiXC9mXC9kMWZhMGY4MC0zM2MxLTQ1MTYtOGJhYS05MGZiNjdlZDIyNjlcL2Q3NGkyMjAtNDZlZmI1N2MtZjIxNC00YmYwLWJiNDMtNTJhNGM3NmQ3NjVhLnBuZyIsIndpZHRoIjoiPD0xMDI0In1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0._Hlcj2chHpjNoEwRcFQCzcXdphLg_bhgX-Gjlz_gLPs");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.modalelectric{
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d1fa0f80-33c1-4516-8baa-90fb67ed2269/d74n7g8-d9e08cee-3a8d-45c4-b2bc-127d4839ea1c.png/v1/fill/w_1024,h_576,q_80,strp/electric_pokemon_energy_wallpaper_by_elbarnzo_d74n7g8-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD01NzYiLCJwYXRoIjoiXC9mXC9kMWZhMGY4MC0zM2MxLTQ1MTYtOGJhYS05MGZiNjdlZDIyNjlcL2Q3NG43ZzgtZDllMDhjZWUtM2E4ZC00NWM0LWIyYmMtMTI3ZDQ4MzllYTFjLnBuZyIsIndpZHRoIjoiPD0xMDI0In1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.gbObqNCO_DHLrhTisjgwxEO8nV9rbZLcr0BpGfVHSpw");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.modalground{
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d1fa0f80-33c1-4516-8baa-90fb67ed2269/dbi2ame-7e0f56b2-2587-47db-8e2b-0429d1f40a80.png/v1/fill/w_1192,h_670,q_70,strp/ground_type_pokemon_wallpaper_by_elbarnzo_dbi2ame-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD0xMDgwIiwicGF0aCI6IlwvZlwvZDFmYTBmODAtMzNjMS00NTE2LThiYWEtOTBmYjY3ZWQyMjY5XC9kYmkyYW1lLTdlMGY1NmIyLTI1ODctNDdkYi04ZTJiLTA0MjlkMWY0MGE4MC5wbmciLCJ3aWR0aCI6Ijw9MTkyMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.QNEABOjSgfrKEyss1iDqWU8igaFG3cGZ_LqBW9-Q2oI");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.modalfairy{
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d1fa0f80-33c1-4516-8baa-90fb67ed2269/daoarj9-eeca0f14-698f-4ddb-9083-dadc70f35dc2.png/v1/fill/w_1192,h_670,q_70,strp/fairy_type_pokemon_wallpaper_by_elbarnzo_daoarj9-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD0xMDgwIiwicGF0aCI6IlwvZlwvZDFmYTBmODAtMzNjMS00NTE2LThiYWEtOTBmYjY3ZWQyMjY5XC9kYW9hcmo5LWVlY2EwZjE0LTY5OGYtNGRkYi05MDgzLWRhZGM3MGYzNWRjMi5wbmciLCJ3aWR0aCI6Ijw9MTkyMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.942osV7UddpX7B9y4MvWYk9wS_P0s6D21zSAiC1oYJI");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.modalfighting{
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d1fa0f80-33c1-4516-8baa-90fb67ed2269/d74vo4c-5a80d30d-5b83-4986-ae83-15638f686b0c.png/v1/fill/w_1024,h_576,q_80,strp/fighting_pokemon_energy_wallpaper_by_elbarnzo_d74vo4c-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD01NzYiLCJwYXRoIjoiXC9mXC9kMWZhMGY4MC0zM2MxLTQ1MTYtOGJhYS05MGZiNjdlZDIyNjlcL2Q3NHZvNGMtNWE4MGQzMGQtNWI4My00OTg2LWFlODMtMTU2MzhmNjg2YjBjLnBuZyIsIndpZHRoIjoiPD0xMDI0In1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.A5v_VRMpZkGwGi8fk5pc589M4_AmVGbHvt5HwbIypD0");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.modalpsychic{
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d1fa0f80-33c1-4516-8baa-90fb67ed2269/d759r4f-8c6f09ca-6e05-4de6-8da8-758a40523c94.png/v1/fill/w_1024,h_576,q_80,strp/physic_pokemon_energy_wallpaper_by_elbarnzo_d759r4f-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD01NzYiLCJwYXRoIjoiXC9mXC9kMWZhMGY4MC0zM2MxLTQ1MTYtOGJhYS05MGZiNjdlZDIyNjlcL2Q3NTlyNGYtOGM2ZjA5Y2EtNmUwNS00ZGU2LThkYTgtNzU4YTQwNTIzYzk0LnBuZyIsIndpZHRoIjoiPD0xMDI0In1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.ZMQNkEfgmCvHd6ohEQLNtzu8MWZaOASTDjzi-Yc5hqQ");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.modalrock{
+   background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d1fa0f80-33c1-4516-8baa-90fb67ed2269/dbi2b77-23f7e283-8756-4668-888a-b37605581478.png/v1/fill/w_1192,h_670,q_70,strp/rock_type_pokemon_wallpaper_by_elbarnzo_dbi2b77-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD0xMDgwIiwicGF0aCI6IlwvZlwvZDFmYTBmODAtMzNjMS00NTE2LThiYWEtOTBmYjY3ZWQyMjY5XC9kYmkyYjc3LTIzZjdlMjgzLTg3NTYtNDY2OC04ODhhLWIzNzYwNTU4MTQ3OC5wbmciLCJ3aWR0aCI6Ijw9MTkyMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.x51dlzoTyUggjyzaEWsXvTXqe3UmfPbDPu3e0UT45JA");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.modalsteel{
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d1fa0f80-33c1-4516-8baa-90fb67ed2269/dbi2bbj-684b5dc6-a546-435d-986b-7ea1c39a697c.png/v1/fill/w_1192,h_670,q_70,strp/steel_type_pokemon_wallpaper_by_elbarnzo_dbi2bbj-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD0xMDgwIiwicGF0aCI6IlwvZlwvZDFmYTBmODAtMzNjMS00NTE2LThiYWEtOTBmYjY3ZWQyMjY5XC9kYmkyYmJqLTY4NGI1ZGM2LWE1NDYtNDM1ZC05ODZiLTdlYTFjMzlhNjk3Yy5wbmciLCJ3aWR0aCI6Ijw9MTkyMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.77rCsurRYCqzkZUXBaYYspoLgLHL-H2jSUsuA-dCq0g");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.modalice{
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d1fa0f80-33c1-4516-8baa-90fb67ed2269/dbi2axg-575b1b4d-60a6-422c-b7ed-7c48a8ea7dc4.png/v1/fill/w_1192,h_670,q_70,strp/ice_type_pokemon_wallpaper_by_elbarnzo_dbi2axg-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD0xMDgwIiwicGF0aCI6IlwvZlwvZDFmYTBmODAtMzNjMS00NTE2LThiYWEtOTBmYjY3ZWQyMjY5XC9kYmkyYXhnLTU3NWIxYjRkLTYwYTYtNDIyYy1iN2VkLTdjNDhhOGVhN2RjNC5wbmciLCJ3aWR0aCI6Ijw9MTkyMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.xejpMaqDGd0UNAmbvGEp3evF_EmyANuexyhzM-oTvcg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.modalghost{
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d1fa0f80-33c1-4516-8baa-90fb67ed2269/dapamlc-b71a2404-059b-47ea-b47d-47304f7bec34.png/v1/fill/w_1024,h_576,q_80,strp/ghost_type_pokemon_wallpaper_by_elbarnzo_dapamlc-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD01NzYiLCJwYXRoIjoiXC9mXC9kMWZhMGY4MC0zM2MxLTQ1MTYtOGJhYS05MGZiNjdlZDIyNjlcL2RhcGFtbGMtYjcxYTI0MDQtMDU5Yi00N2VhLWI0N2QtNDczMDRmN2JlYzM0LnBuZyIsIndpZHRoIjoiPD0xMDI0In1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0._wEuvq7xgmL_hmYVQCN1xbUgqHCiBI1RTrW83gI_4uA");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.modaldragon{
+   background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d1fa0f80-33c1-4516-8baa-90fb67ed2269/dak4w59-4543ab66-519a-4fd1-9391-0cd0cd4b358f.png/v1/fill/w_1192,h_670,q_70,strp/dragon_type_pokemon_wallpaper_by_elbarnzo_dak4w59-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD0xMDgwIiwicGF0aCI6IlwvZlwvZDFmYTBmODAtMzNjMS00NTE2LThiYWEtOTBmYjY3ZWQyMjY5XC9kYWs0dzU5LTQ1NDNhYjY2LTUxOWEtNGZkMS05MzkxLTBjZDBjZDRiMzU4Zi5wbmciLCJ3aWR0aCI6Ijw9MTkyMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.LnCdjfltNDeN1nUB3Ft7oo6Bi-wjKDtifeN0XwQWtgo");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.modaldark{
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/d1fa0f80-33c1-4516-8baa-90fb67ed2269/dajx3sf-78dd905f-8cf4-4dab-b853-aa22f437b971.png/v1/fill/w_1192,h_670,q_70,strp/dark_type_pokemon_wallpaper_by_elbarnzo_dajx3sf-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD0xMDgwIiwicGF0aCI6IlwvZlwvZDFmYTBmODAtMzNjMS00NTE2LThiYWEtOTBmYjY3ZWQyMjY5XC9kYWp4M3NmLTc4ZGQ5MDVmLThjZjQtNGRhYi1iODUzLWFhMjJmNDM3Yjk3MS5wbmciLCJ3aWR0aCI6Ijw9MTkyMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.roU8ByXHp0dO1pi1P9cwfmMjBmEqWkwF3s6IepVQCec");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.modal {
+  font-size: 12px;
+}
+.modal > .header {
+  width: 100%;
+  border-bottom: 1px solid gray;
+  font-size: 18px;
+  text-align: center;
+  padding: 5px;
+}
+.modal > .content {
+  width: 100%;
+  padding: 10px 5px;
+}
+.modal > .close {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  padding: 2px 5px;
+  line-height: 20px;
+  right: -10px;
+  top: -10px;
+  font-size: 24px;
+  background: #ffffff;
+  border-radius: 18px;
+  border: 1px solid #cfcece;
+}
+
+img{
+    width: 100px;
+    height: 100px;
 }

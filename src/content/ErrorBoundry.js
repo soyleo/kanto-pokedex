@@ -1,4 +1,5 @@
 import React from 'react';
+import './ErrorBoundry.css';
 
 class ErrorBoundry extends React.Component {
 
