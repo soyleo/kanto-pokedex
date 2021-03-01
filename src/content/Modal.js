@@ -6,7 +6,6 @@ const Modal = ({url}) =>{
     const [tipos, setTipos] = useState(null);
     useEffect(() => {
         fetch(url).then(response => response.json()).then(data => {
-            console.log(data);
             setTipos(data);
         })
     }, [url]);

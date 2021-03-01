@@ -39,6 +39,7 @@ const Card = ({ name, url }) => {
                                                 {' '}
                                                 <Modal url={tipo.type.url} key={`2${i}`} />
                                             </div>
+                                            <div className="actions"></div>
                                         </div>
                                 )}
                             </Popup>
