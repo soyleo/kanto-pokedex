@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/kanto-pokedex/static/css/main.2913f30a.chunk.css",
-    "main.js": "/kanto-pokedex/static/js/main.265a3950.chunk.js",
-    "main.js.map": "/kanto-pokedex/static/js/main.265a3950.chunk.js.map",
+    "main.js": "/kanto-pokedex/static/js/main.a26e0bc7.chunk.js",
+    "main.js.map": "/kanto-pokedex/static/js/main.a26e0bc7.chunk.js.map",
     "runtime-main.js": "/kanto-pokedex/static/js/runtime-main.0403dfb8.js",
     "runtime-main.js.map": "/kanto-pokedex/static/js/runtime-main.0403dfb8.js.map",
     "static/js/2.32703aaa.chunk.js": "/kanto-pokedex/static/js/2.32703aaa.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.0403dfb8.js",
     "static/js/2.32703aaa.chunk.js",
     "static/css/main.2913f30a.chunk.css",
-    "static/js/main.265a3950.chunk.js"
+    "static/js/main.a26e0bc7.chunk.js"
   ]
 }
